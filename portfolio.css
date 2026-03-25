@@ -1,8 +1,10 @@
+/* This styles the body background and spacing */
 body {
     background-color: lightyellow; 
     margin: 0; 
 }
 
+/* This styles the main headings for each page */
 h1 {
     text-align: center; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
@@ -16,6 +18,7 @@ h2 {
     margin-right: 40px; 
 }
 
+/* This styles the paragraphs */
 p {
     text-align: left; 
     font-size: 1.5em; 
@@ -25,6 +28,7 @@ p {
     font-weight: normal; 
 }
 
+/* Ordered List Styling */
 ol {
     font-family: 'Arial'; 
     font-size: 25px; 
@@ -33,6 +37,7 @@ ol {
     font-weight: normal; 
 }
 
+/* This styles the navigation bar, the links and its layout */
 nav {
     font-family: Arial, Helvetica, sans-serif; 
     text-align: right; 
@@ -50,6 +55,7 @@ nav a {
     margin-left: 20px; 
 }
 
+/* About Me Page */
 .me {
     display: flex;
     flex-direction: column; 
@@ -73,6 +79,7 @@ nav a {
     text-align: left; 
 }
 
+/* Home Page */
 .home-container {
     display: flex; 
     justify-content: center; 
@@ -89,6 +96,7 @@ nav a {
     margin-bottom: 10px; 
 }
 
+/* Projects Page */
 .projects {
     display: flex;
     justify-content: center; 
@@ -111,6 +119,7 @@ nav a {
     padding: 7px 14px; 
 }
 
+/* Resume Page */
 .resume-container {
     display: flex; 
     justify-content: center;
@@ -122,6 +131,7 @@ nav a {
     padding: 0px; 
 }
 
+/* Contact Information Page */
 .contact-container {
     text-align: center; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -132,6 +142,7 @@ nav a {
     text-align: center; 
 }
 
+/* This will styles all of the cards from each page */
 .card-container {
     display: flex;
     overflow-x: auto; 
@@ -153,6 +164,7 @@ nav a {
     font-family: Arial, sans-serif; 
 }
 
+/* This will style the accordion for the FAQ Questions on the homepage */
 .accordion {
     width: 600px;
     max-width: 700px; 
@@ -177,12 +189,14 @@ nav a {
     transition: 0.4s; 
 }
 
+/* This will style all of the images of all of the pages. */
 img {
     width: 300px;
     border-radius: 10px; 
     align-items: center; 
 }
 
+/* This styles the footer's apperance and layout */
 footer {
     display: flex; 
     justify-content: center; 
